@@ -152,7 +152,7 @@ button:hover, button:focus {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    width: 25vw;
+    width: 20vw;
     transition: 0.5s;
 }
   
@@ -309,6 +309,21 @@ button:hover, button:focus {
   text-align: right;
 }
 
+/* Weapon Calculator */ 
+.calculator {
+  display: flex;
+  padding: 2em 0;
+  margin: 0 7em 0 7em;
+  border-bottom: 3px solid #c9c9c9;
+  border-radius: 2px;
+}
+
+.calculator > .grid-image img {
+  height: 20em;
+  width: 20em;
+  margin: auto 5em auto auto;
+}
+
 /* CONTRIB */
 
 .contrib-container {
@@ -383,12 +398,12 @@ button:hover, button:focus {
 
 
 
-  .loadout, .tracker, .map, .wiki {
+ .calculator, .loadout, .tracker, .map, .wiki {
     margin: 0 1em 0em 1em;
     text-align: center; 
   }
 
-  .loadout > .grid-image img, .tracker > .grid-image img, .map > .grid-image img, .wiki > .grid-image img {
+  .calculator > .grid-image img, .loadout > .grid-image img, .tracker > .grid-image img, .map > .grid-image img, .wiki > .grid-image img {
     height: 100%;
     width: 100%;
   }
