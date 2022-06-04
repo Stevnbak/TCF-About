@@ -309,6 +309,9 @@ footer {
 .footer-backToTopLink {
     color: var(--clr-grey-10);
 }
+.footer-backToTopLink a {
+    text-decoration: none;
+}
 .footer-backToTopText:hover {
     background-color: var(--clr-primary-2);
 }
