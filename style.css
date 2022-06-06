@@ -108,7 +108,7 @@ ul { list-style-type: none; padding: 0}
 
 /* BUTTON */
 
-button {
+.button {
   text-align: center;
   margin: 0.3em auto;
   align-self: center;
@@ -120,7 +120,7 @@ button {
   
 }
 
-button:hover, button:focus {
+.button:hover, .button:focus {
   background-color: #04da97
 }
 
