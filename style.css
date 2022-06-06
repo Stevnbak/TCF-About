@@ -181,15 +181,14 @@ button:hover, button:focus {
 
 /* WIKI */
 
-.wiki {
+.right {
   display: flex;
   padding: 2em 0;
   margin: 0 7em 0 7em;
-  border-bottom: 1px solid #c9c9c9;
   border-radius: 2px;
 }
 
-.wiki > .grid-image img {
+.right > .grid-image img {
   height: 20em;
   width: 20em;
   margin: auto 5em auto auto;
@@ -197,76 +196,27 @@ button:hover, button:focus {
 
 /* MAP */
 
-.map {
+.left {
   display: flex;
   padding: 2em 0;
   margin: 0 7em 0 7em;
-  border-bottom: 1px solid #c9c9c9;
   border-radius: 2px;
 
 }
 
-.map > .grid-image img {
+.left > .grid-image img {
   height: 20em;
   width: 20em;
   margin: auto auto auto 5em;
 }
 
-.map > .grid-text {
+.left > .grid-text {
   text-align: right;
 }
 
-/* TRACKER */ 
 
 
-.tracker {
-  display: flex;
-  padding: 2em 0;
-  margin: 0 7em 0 7em;
-  border-bottom: 1px solid #c9c9c9;
-  border-radius: 2px;
-}
 
-.tracker > .grid-image img {
-  height: 20em;
-  width: 20em;
-  margin: auto 5em auto auto;
-}
-
-/* LOADOUT */
-
-.loadout {
-  display: flex;
-  padding: 2em 0;
-  margin: 0 7em 0em 7em;
-  border-radius: 2px;
-
-}
-
-.loadout > .grid-image img {
-  height: 20em;
-  width: 20em;
-  margin: auto auto auto 5em;
-}
-
-.loadout > .grid-text {
-  text-align: right;
-}
-
-/* Weapon Calculator */ 
-.calculator {
-  display: flex;
-  padding: 2em 0;
-  margin: 0 7em 0 7em;
-  border-bottom: 1px solid #c9c9c9;
-  border-radius: 2px;
-}
-
-.calculator > .grid-image img {
-  height: 20em;
-  width: 20em;
-  margin: auto 5em auto auto;
-}
 
 /* CONTRIB */
 
@@ -298,7 +248,6 @@ button:hover, button:focus {
 
 .projects h2 span, .contributors h2 span {
   width: max-content;
-  border-bottom: 1px solid #c9c9c9;
 }
 
 @media only screen and (max-width:640px) {
@@ -342,12 +291,12 @@ button:hover, button:focus {
 
 
 
- .calculator, .loadout, .tracker, .map, .wiki {
+ .left, .right {
     margin: 0 1em 0em 1em;
     text-align: center; 
   }
 
-  .calculator > .grid-image img, .loadout > .grid-image img, .tracker > .grid-image img, .map > .grid-image img, .wiki > .grid-image img {
+  .left > .grid-image img, .right > .grid-image img {
     height: 100%;
     width: 100%;
   }
@@ -369,7 +318,7 @@ button:hover, button:focus {
     margin: 0;
   }
 
-  .loadout > .grid-text, .map > .grid-text  {
+  .calculator > .grid-text, .map > .grid-text, .toolbox > .grid-text  {
     text-align: center;
   }
 
